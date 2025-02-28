@@ -1,0 +1,62 @@
+.translator-box {
+  position: absolute;
+  z-index: 10000;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  max-width: 300px;
+  font-family: Arial, sans-serif;
+}
+
+.translator-box h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.translator-box .phonetic {
+  color: #666;
+  margin: 5px 0;
+}
+
+.translator-box .audio-player {
+  width: 100%;
+  height: 30px;
+  margin: 5px 0;
+}
+
+.translator-box .meanings {
+  margin-top: 10px;
+}
+
+.translator-box .part-of-speech {
+  color: #2196F3;
+  font-style: italic;
+  margin: 5px 0;
+}
+
+.translator-box ul {
+  margin: 5px 0;
+  padding-left: 20px;
+}
+
+.translator-box li {
+  margin: 3px 0;
+  color: #555;
+}
+
+.popup-container {
+  width: 300px;
+  padding: 15px;
+}
+
+.popup-container h2 {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.popup-container p {
+  margin: 0;
+  color: #666;
+} 
